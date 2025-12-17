@@ -99,7 +99,7 @@ def api():
         }), 404
 
     return jsonify({
-        "credit": "API DEVELOPER : @J4TNX",
+        "credit": "API DEVELOPER : @AWNISHXRAJ",
         "status": "success",
         "rc_number": rc_number.upper(),
         "details": details
