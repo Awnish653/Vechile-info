@@ -77,7 +77,7 @@ def api():
 
     if not rc_number:
         return jsonify({
-            "credit": "API DEVELOPER: @J4TNX",
+            "credit": "API DEVELOPER: @AWNISHXRAJ",
             "status": "error",
             "message": "Missing required parameter: rc_number"
         }), 400
@@ -86,14 +86,14 @@ def api():
 
     if details.get("error"):
         return jsonify({
-            "credit": "API DEVELOPER: @J4TNX",
+            "credit": "API DEVELOPER: @AWNISHXRAJ",
             "status": "error",
             "message": details["error"]
         }), 500
 
     if not any(details.values()):
         return jsonify({
-            "credit": "API DEVELOPER: @J4TNX",
+            "credit": "API DEVELOPER: @AWNISHXRAJ",
             "status": "not_found",
             "message": f"No details found for {rc_number}"
         }), 404
